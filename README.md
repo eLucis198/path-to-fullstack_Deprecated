@@ -27,6 +27,7 @@ I'll be dividing this README in four different categories.
     * [Git and GitHub](#Git-and-GitHub)
     * [Express](#Express)
     * [TypeScript](#TypeScript)
+    * [ESLint](#ESLint)
 
 # EXTENSIONS
 
@@ -129,16 +130,6 @@ This may be the best thing I found out here haha, makes your code much more clea
 `yarn global add typescript` - Installs typescript globally in your machine.
 `yarn add typescript --d` - Installs typescript as a development dependency.
 
-Run `yarn tsc --init` to init a tsconfig.json file. (Only works with typescript installed globally)
-
-Add this line to the tsconfig.json file
-```json
-{
-    "compilerOptions": {
-      "outDir": "./dist/"
-    }
-}
-```
 ### Transpile - sucrase + nodemon
 
 `yarn add sucrase nodemon -D` - Installs sucrase and nodemon as a dev dependencies.
@@ -156,11 +147,25 @@ Create a nodemon.json file for configurations.
 Alter package.json
 ```json
 "scripts": {
-  "dev": "nodemon src/server.ts"
+  "dev": "nodemon src/server.ts",
+  "build": "sucrase ./src -d ./dist --transforms typescript,imports"
 },
 ```
+`yarn dev` - Runs app.
+`yarn buid` - Builds app.
 
 ### Transpile - ts-node-dev
+
+Run `yarn tsc --init` to init a tsconfig.json file. (Only works with typescript installed globally)
+
+Add this line to the tsconfig.json file
+```json
+{
+    "compilerOptions": {
+      "outDir": "./dist/"
+    }
+}
+```
 
 You can transpile your code just by running `yarn tsc` and the files should be in the dist directory.
 
@@ -185,3 +190,41 @@ You need to install the "types" of your dependencies for the IntelliSense to wor
 
 * https://www.youtube.com/watch?v=0mYq5LrQN1s
 * https://www.youtube.com/watch?v=aTf8QTjw4RE
+
+## ESLint
+
+> A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
+
+Points out error in TS code.
+
+### Setup
+
+Install the extension ESLint.
+
+Run `yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin` to install.
+
+To initialize run `yarn eslint --init` and configure it. (Now you can delete package-lock.json and run `yarn`)
+
+Add line to .eslintrc.js
+```js
+extends: [
+  'plugin:@typescript-eslint/recommended',
+  'standard'
+],
+```
+
+Now open your vsCode preferences {{ Ctrl - Shift + P  ==>>  preferences: open settings (json) }}
+
+Add the following lines
+```json
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+]
+```
+All done, now TypeScript is running with ESLint :ok_hand:

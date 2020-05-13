@@ -59,7 +59,7 @@ Follow through the [installation](https://nodejs.org/en/) and both will be insta
 
 > Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.
 
-Well, I just thin Yarn is easier to use.
+Well, I just think Yarn is easier to use.
 
 `npm install -g yarn` - Install Yarn globally.
 
@@ -180,23 +180,6 @@ Now run `yarn dev:server`. Your project is running it transpiles automatically a
 You need to install the "types" of your dependencies for the IntelliSense to work.
 
 `npm install @types/express -D` - Install the types of express as a development dependency.
-
-**Example**
-
-create a index.**ts** file and paste the following code in it
-
-```typescript
-import express from 'express'
-
-const app = express()
-
-app.get('/', (req,res) =>
-  res.send('Hello World')
-)
-
-app.listen(3333)
-```
-
 
 ### How I learned
 

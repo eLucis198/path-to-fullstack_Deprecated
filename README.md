@@ -28,6 +28,7 @@ I'll be dividing this README in four different categories.
     * [Express](#Express)
     * [TypeScript](#TypeScript)
     * [ESLint](#ESLint)
+    * [Prettier](#Prettier)
 
 # EXTENSIONS
 
@@ -228,3 +229,24 @@ Add the following lines
 ]
 ```
 All done, now TypeScript is running with ESLint :ok_hand:
+
+### How I learned
+
+* https://www.youtube.com/watch?v=aTf8QTjw4RE
+
+## Prettier
+
+> Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+
+### Setup
+
+Run `yarn add prettier eslint-config-prettier eslint-plugin-prettier -D`.
+
+Add line to .eslintrc.js
+```js
+extends: [
+  'plugin:@typescript-eslint/recommended',
+  'prettier/@typescript-eslint',
+  'standard'
+],
+```

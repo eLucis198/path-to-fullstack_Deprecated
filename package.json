@@ -1,0 +1,20 @@
+{
+  "name": "path-to-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guilherme Guedes da Luz <30610742+eLucis198@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "nodemon": "^2.0.3",
+    "sucrase": "^3.14.0",
+    "typescript": "^3.9.2"
+  }
+}

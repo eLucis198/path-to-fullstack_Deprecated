@@ -1,1 +1,3 @@
-console.log('Hello World 2')
+import app from './app'
+
+app.listen(3333)

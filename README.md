@@ -10,10 +10,10 @@ Any technology that is not code is placed here. By creating just one big file wi
 
 I'll be dividing this README in four different categories.
 
-1. **DONE -** Technologies that I've somewhat learned and that I'm already using.
+1. **DONE -**
 2. **DOING -** Technologies that I'm learning right now or will learn in the near future.
 3. **TODO -** Technologies that I'm not going to study in the near future but are on my radar.
-4. **Extensions** - VSCode Extensions.
+4. **EXTENSIONS**
 
 ## Table of contents
 
@@ -29,7 +29,9 @@ I'll be dividing this README in four different categories.
     * [ESLint](#ESLint)
     * [Prettier](#Prettier)
 
-<h1 align="center" border="0">EXTENSIONS</h1>
+<h1 align="center">EXTENSIONS</h1>
+
+<p align="center">VSCode Extensions.</p>
 
 <h2 align="center">EditorConfig</h2>
 
@@ -39,7 +41,9 @@ You can save your editor configurations in a `.editorconfig` file at the root fo
 
 # DONE
 
-## NodeJS
+<p align="center">Technologies that I've somewhat learned and that I'm already using.</p.>
+
+<h2 align="center">NodeJS</h2>
 
 > [Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.](https://nodejs.org/en/)
 
@@ -56,7 +60,7 @@ Follow through the [installation](https://nodejs.org/en/) and both will be insta
 
 `package.json` is your project configuration file, edit the `scripts` part and create customizable Node commands.
 
-## Yarn
+<h2 align="center">Yarn</h2>
 
 > Yarn is a package manager that doubles down as project manager. Whether you work on one-shot projects or large monorepos, as a hobbyist or an enterprise user, we've got you covered.
 
@@ -66,7 +70,7 @@ Well, I just think Yarn is easier to use.
 
 If you ever use npm in your repo you can delete the package-lock.json file and run `yarn`.
 
-## Git and GitHub
+<h2 align="center">Git and GitHub</h2>
 
 > [Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.](https://git-scm.com/)
 
@@ -117,7 +121,7 @@ Git and GitHub are used to keep your code safe by allowing you to create multipl
 
 * https://www.youtube.com/watch?v=2T2l2rGRzXs&t
 
-## Express
+<h2 align="center">Express</h2>
 
 > Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
@@ -125,7 +129,7 @@ Best thing ever for HTTP requests and routing.
 
 `yarn add express` - Installs the express dependency.
 
-## TypeScript
+<h2 align="center">TypeScript</h2>
 
 >TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
 
@@ -197,7 +201,7 @@ You need to install the "types" of your dependencies for the IntelliSense to wor
 * https://www.youtube.com/watch?v=0mYq5LrQN1s
 * https://www.youtube.com/watch?v=aTf8QTjw4RE
 
-## ESLint
+<h2 align="center">ESLint</h2>
 
 > A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
 

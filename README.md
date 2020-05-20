@@ -1,20 +1,19 @@
-# Path To FullStack
+<h1 align="center">Path To FullStack</h1>
 
-Here I will be committing my personal repo used to learn multiple technologies, all related to NodeJS.
+This is my personal repository used to learn new technologies.
 
-## Why is this README.md so long?
+### What is this README.md?
 
-I created this README.md for learning. It centralizes everything that is code related but it's not code. I found out that putting everything here is the best way I can teach myself. Putting the file in the spotlight is cool too.
+Any technology that is not code is placed here, improving my learning.
 
-## Introduction
+### Structure
 
 I'll be dividing this README in four different categories.
 
 1. **DONE -** Technologies that I've somewhat learned and that I'm already using.
 2. **DOING -** Technologies that I'm learning right now or will learn in the near future.
 3. **TODO -** Technologies that I'm not going to study in the near future but are on my radar.
-4. **Extensions** VSCode Estensions.
-
+4. **Extensions** - VSCode Extensions.
 
 ## Table of contents
 
@@ -32,9 +31,9 @@ I'll be dividing this README in four different categories.
 
 # EXTENSIONS
 
-## EditorConfig
+# <h2 align="center">EditorConfig</h2>
 
-> This plugin attempts to override user/workspace settings with settings found in .editorconfig files.
+> EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 
 You can save your editor configurations in a `.editorconfig` file at the root folder.
 

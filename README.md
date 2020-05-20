@@ -82,6 +82,10 @@ Git and GitHub are used to keep your code safe by allowing you to create multipl
 
 `.gitignore` is a file that you can create in the root folder of your project that tells Git the files that should be ignored
 
+`git config credential.helper store` - This command will save your credential in plain text.
+
+`git config --global credential.helper cache` - Will save your credential for 15 minutes by default, you can define the timeout `git config --global credential.helper 'cache --timeout=3600'`, timeout is in seconds.
+
 `git init` - Initializes a git repository locally.
 
 `git add .` - Stores snapshot temporary in the index.

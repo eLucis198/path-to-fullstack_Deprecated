@@ -1,10 +1,10 @@
 <h1 align="center">Path To FullStack</h1>
 
-This is my personal repository used to learn new technologies.
+<p align="center">This is my personal repository used to learn new technologies.</p>
 
 ### What is this README.md?
 
-Any technology that is not code is placed here, improving my learning.
+Any technology that is not code is placed here. By creating just one big file with everything in it, just the process of making it teaches you a lot, and I can always consult it.
 
 ### Structure
 
@@ -31,7 +31,7 @@ I'll be dividing this README in four different categories.
 
 # EXTENSIONS
 
-# <h2 align="center">EditorConfig</h2>
+<h2 align="center">EditorConfig</h2>
 
 > EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 

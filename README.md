@@ -17,7 +17,7 @@ I'll be dividing this README in four different categories.
 
 ## Table of contents
 
-* **[Extensions](#EXTENSIONS)**
+* **[EXTENSIONS](#EXTENSIONS)**
     * [EditorConfig](#EditorConfig)
 
 * **[DONE](#DONE)**
@@ -29,7 +29,7 @@ I'll be dividing this README in four different categories.
     * [ESLint](#ESLint)
     * [Prettier](#Prettier)
 
-# EXTENSIONS
+<h1 align="center" border="0">EXTENSIONS</h1>
 
 <h2 align="center">EditorConfig</h2>
 
